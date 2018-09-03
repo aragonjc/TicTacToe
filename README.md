@@ -1,2 +1,2 @@
 # TicTacToe
-Tic Tac Toe develop with javascript
+Tic Tac Toe using javascript
