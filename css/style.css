@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.row {
+	display: block;
+}
+
+.Player{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.board table{
+	margin: auto;
+}
+
+
+td {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	margin: 0;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+/*top and bottom border for middle row*/
+tr:nth-of-type(2) td {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+/*left and right border for middle column*/
+tr td:nth-of-type(2) {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+/*hover over a square to see its borders*/
+tr td:hover {
+  background: #EEE;
+}
